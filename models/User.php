@@ -17,6 +17,7 @@ use yii\web\IdentityInterface;
  */
 class User extends \yii\db\ActiveRecord implements IdentityInterface
 {
+    public $is_deleted = 0;
     /**
      * {@inheritdoc}
      */
@@ -32,7 +33,7 @@ class User extends \yii\db\ActiveRecord implements IdentityInterface
     {
         return [
             [['username', 'password', 'access_token', 'auth_key'], 'required'],
-            [['is_deleted'], 'integer', 'value' => 0],
+            [['is_deleted'], 'integer', 'max' => 0,],
             [['username'], 'string', 'max' => 55],
             [['password', 'access_token', 'auth_key'], 'string', 'max' => 255],
             [['username'], 'unique'],

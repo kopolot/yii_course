@@ -48,6 +48,22 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '<controller:(post|comment)>/create' => '<controller>/create',
+                '<controller:(post|comment)>/<id:\d+>/<action:(update|delete)>' => '<controller>/<action>',
+                '<controller:(post|comment)>/<id:\d+>' => '<controller>/view',
+                '<controller:(post|comment)>s' => '<controller>/index',
+                [
+                    'pattern' => 'login',
+                    'route' => 'user/login',
+                    'suffix' => '/',
+                    'normalizer' => false, // disable normalizer for this rule
+                ],
+                [
+                    'pattern' => 'sing-up',
+                    'route' => 'user/singup',
+                    'suffix' => '/',
+                    'normalizer' => false,
+                ]
             ],
         ],
         
