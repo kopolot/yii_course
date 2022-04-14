@@ -57,7 +57,7 @@ class UserController extends Controller{
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goHome();
+            return $this->render('/site/index');
         }
 
         $model->password = '';
