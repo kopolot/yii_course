@@ -19,7 +19,7 @@ use app\models\User;
  *
  * @property Users $createdBy
  */
-class ArticleSearch extends \yii\db\ActiveRecord
+class ArticleSearch extends ActiveRecord
 {
     /**
      * {@inheritdoc}
