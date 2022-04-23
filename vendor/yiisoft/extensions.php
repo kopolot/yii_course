@@ -66,4 +66,13 @@ return array (
       '@vxm/mfa' => $vendorDir . '/vxm/yii2-mfa/src',
     ),
   ),
+  'nextvikas/yii2-google-authenticator' => 
+  array (
+    'name' => 'nextvikas/yii2-google-authenticator',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@nextvikas/authenticator' => $vendorDir . '/nextvikas/yii2-google-authenticator',
+    ),
+  ),
 );

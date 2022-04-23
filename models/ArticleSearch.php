@@ -2,71 +2,72 @@
 
 namespace app\models;
 
-use Yii;
-use yii\db\ActiveRecord;
-use app\models\User;
+use yii\base\Model;
+use yii\data\ActiveDataProvider;
+use app\models\Article;
 
 /**
- * This is the model class for table "article".
- *
- * @property int $id
- * @property string $title
- * @property string $slug
- * @property string $text
- * @property int|null $created_by
- * @property int|null $created_at
- * @property int|null $updated_at
- *
- * @property Users $createdBy
+ * ArticleSearch represents the model behind the search form of `app\models\Article`.
  */
-class ArticleSearch extends ActiveRecord
+class ArticleSearch extends Article
 {
-    /**
-     * {@inheritdoc}
-     */
-    public static function tableName()
-    {
-        return 'article';
-    }
-
     /**
      * {@inheritdoc}
      */
     public function rules()
     {
         return [
-            [['title', 'slug', 'text'], 'required'],
-            [['text'], 'string'],
-            [['created_by', 'created_at', 'updated_at'], 'integer'],
-            [['title', 'slug'], 'string', 'max' => 55],
-            [['title'], 'unique'],
-            [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => User::class, 'targetAttribute' => ['created_by' => 'id']],
+            [['id', 'created_by', 'created_at', 'updated_at'], 'integer'],
+            [['title', 'short_title', 'text'], 'safe'],
         ];
     }
 
     /**
      * {@inheritdoc}
      */
-    public function attributeLabels()
+    public function scenarios()
     {
-        return [
-            'id' => 'ID',
-            'title' => 'Title',
-            'slug' => 'Slug',
-            'text' => 'Text',
-            'created_by' => 'Created By',
-            'created_at' => 'Created At',
-            'updated_at' => 'Updated At',
-        ];
+        // bypass scenarios() implementation in the parent class
+        return Model::scenarios();
     }
 
     /**
-     * Gets query for [[CreatedBy]].
+     * Creates data provider instance with search query applied
      *
-     * @return \yii\db\ActiveQuery
+     * @param array $params
+     *
+     * @return ActiveDataProvider
      */
-    public function getCreatedBy()
+    public function search($params)
     {
-        return $this->hasOne(User::class, ['id' => 'created_by']);
+        $query = Article::find();
+
+        // add conditions that should always apply here
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+        ]);
+
+        $this->load($params);
+
+        if (!$this->validate()) {
+            // uncomment the following line if you do not want to return any records when validation fails
+            // $query->where('0=1');
+            return $dataProvider;
+        }
+
+        // grid filtering conditions
+        $query->andFilterWhere([
+            'id' => $this->id,
+            'created_by' => $this->created_by,
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
+        ]);
+
+        $query->andFilterWhere(['like', 'title', $this->title])
+            ->andFilterWhere(['like', 'short_title', $this->short_title])
+            ->andFilterWhere(['like', 'text', $this->text]);
+
+        return $dataProvider;
     }
 }

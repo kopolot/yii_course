@@ -5,6 +5,9 @@ namespace app\models;
 use Yii;
 use yii\db\ActiveRecord;
 use app\models\User;
+use yii\behaviors\BlameableBehavior;
+use yii\behaviors\SluggableBehavior;
+use yii\behaviors\TimestampBehavior;
 
 /**
  * This is the model class for table "article".
@@ -35,12 +38,29 @@ class Article extends ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'slug', 'text'], 'required'],
+            [['title', 'short_title', 'text'], 'required'],
             [['text'], 'string'],
             [['created_by', 'created_at', 'updated_at'], 'integer'],
-            [['title', 'slug'], 'string', 'max' => 55],
+            ['short_title', 'string', 'max' => 60],
+            ['title', 'string', 'max' => 30],
             [['title'], 'unique'],
             [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => User::class, 'targetAttribute' => ['created_by' => 'id']],
+        ];
+    }
+
+    public function behaviors(){
+        return [
+            TimestampBehavior::class,
+            [
+                'class' => SluggableBehavior::class,
+                'attribute' => 'title',
+                'slugAttribute' => 'short_title'
+            ],
+            [
+                'class' => BlameableBehavior::class,
+                'createdByAttribute' => 'created_by',
+                'updatedByAttribute' => false
+            ],
         ];
     }
 
@@ -52,8 +72,8 @@ class Article extends ActiveRecord
         return [
             'id' => 'ID',
             'title' => 'Title',
-            'slug' => 'Slug',
-            'text' => 'Text',
+            'short_title' => 'Short Title',
+            'text' => 'Content',
             'created_by' => 'Created By',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',

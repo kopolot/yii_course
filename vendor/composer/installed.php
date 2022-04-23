@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '9a72b77745bb64b60ee3a2df2cf3e80098d4f0dd',
         'name' => 'yiisoft/yii2-app-basic',
         'dev' => true,
     ),
@@ -193,7 +193,7 @@
             'aliases' => array(
                 0 => '1.20.x-dev',
             ),
-            'reference' => '987b51effeeb347fd7bbbf660c5151d870a4853c',
+            'reference' => '1895571db1b76474503785f723c762ff8b01c6f8',
             'dev_requirement' => true,
         ),
         'guzzlehttp/psr7' => array(
@@ -215,6 +215,17 @@
             'aliases' => array(),
             'reference' => '14daed4296fae74d9e3201d2c4925d1acb7aa614',
             'dev_requirement' => true,
+        ),
+        'nextvikas/yii2-google-authenticator' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../nextvikas/yii2-google-authenticator',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '1b03e358785badf751e369c7f733eb36fde4505f',
+            'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
             'pretty_version' => 'v4.13.2',
@@ -322,7 +333,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/php-code-coverage',
             'aliases' => array(),
-            'reference' => 'f8853c984a5e8e34596c9fc3be6a28474edfae7e',
+            'reference' => '1586c6ac5c7a8f45a15de9bb8a8531ca9812fba1',
             'dev_requirement' => true,
         ),
         'phpunit/php-file-iterator' => array(
@@ -367,7 +378,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
-            'reference' => '28a154523c7167644a1e2102a5882efb56ef7815',
+            'reference' => 'e1933439e20999e4bd014b19d75d62b00e03adb8',
             'dev_requirement' => true,
         ),
         'psr/container' => array(
@@ -514,7 +525,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../sebastian/environment',
             'aliases' => array(),
-            'reference' => '1b5dff7bb151a4db11d49d90e5408e4e938270f7',
+            'reference' => '3fade0c8462024d0426a00dc1ad0a2fda0df733f',
             'dev_requirement' => true,
         ),
         'sebastian/exporter' => array(
@@ -572,14 +583,14 @@
             'dev_requirement' => true,
         ),
         'sebastian/resource-operations' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../sebastian/resource-operations',
             'aliases' => array(
                 0 => '3.0.x-dev',
             ),
-            'reference' => '0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8',
+            'reference' => '0bb681ab112cdcd15dc71ea4ed7fb78e7060828b',
             'dev_requirement' => true,
         ),
         'sebastian/type' => array(
@@ -624,7 +635,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
-            'reference' => '900275254f0a1a2afff1ab0e11abd5587a10e1d6',
+            'reference' => 'ffe3aed36c4d60da2cf1b0a1cee6b8f2e5fa881b',
             'dev_requirement' => true,
         ),
         'symfony/css-selector' => array(
@@ -684,7 +695,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
-            'reference' => '231313534dded84c7ecaa79d14bc5da4ccb69b7d',
+            'reference' => '9b630f3427f3ebe7cd346c277a1408b00249dad9',
             'dev_requirement' => true,
         ),
         'symfony/mailer' => array(
@@ -693,7 +704,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/mailer',
             'aliases' => array(),
-            'reference' => '03332035eef89557db9eb7ead4e899685d5962b9',
+            'reference' => '957f6b6b85595023bb71d649dca9fd397b72d066',
             'dev_requirement' => false,
         ),
         'symfony/mime' => array(
@@ -702,7 +713,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/mime',
             'aliases' => array(),
-            'reference' => '92d27a34dea2e199fa9b687e3fff3a7d169b7b1c',
+            'reference' => 'af49bc163ec3272f677bde3bc44c0d766c1fd662',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(
@@ -801,7 +812,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/string',
             'aliases' => array(),
-            'reference' => '92043b7d8383e48104e411bc9434b260dbeb5a10',
+            'reference' => '434200142276d3a8b0b1920bec8fd5c974cc0e60',
             'dev_requirement' => true,
         ),
         'symfony/yaml' => array(
@@ -830,7 +841,7 @@
             'aliases' => array(
                 0 => '1.10.x-dev',
             ),
-            'reference' => 'b419d648592b0b8911cbbe10d450fe314f4fd262',
+            'reference' => 'b65e17cf6a028d36b0f5ccf5f66f7c56c005dc01',
             'dev_requirement' => true,
         ),
         'yiisoft/yii2' => array(
@@ -841,16 +852,16 @@
             'aliases' => array(
                 0 => '2.0.x-dev',
             ),
-            'reference' => 'a17ec7376309f707b3a636e607fdbfd69ef521d8',
+            'reference' => '45199d276adc2664e5e4ad340bd370245b84f599',
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-app-basic' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '9a72b77745bb64b60ee3a2df2cf3e80098d4f0dd',
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-bootstrap4' => array(
