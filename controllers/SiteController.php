@@ -61,7 +61,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $articles = Article::find()->orderBy(['updated_at' => SORT_DESC])->limit(3)->all();
+        return $this->render('index', ['articles' => $articles]);
     }
 
     /**

@@ -26478,3 +26478,1415 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1650403709.1491
     'REQUEST_TIME' => 1650403709
 ]
+2022-04-23 17:42:02 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "a/article". in C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('a/article', Array)
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2022-04-23 17:42:02 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '61490'
+    'REDIRECT_URL' => '/basic/web/basic/weba/article[L,NC]'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/weba/article'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650728522.5619
+    'REQUEST_TIME' => 1650728522
+]
+2022-04-23 17:44:30 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Class 'Article' not found in C:\xampp7.4.28\htdocs\basic\views\site\index.php:23
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 17:44:30 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '58351'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650728670.841
+    'REQUEST_TIME' => 1650728670
+]
+2022-04-23 17:47:24 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Cannot use object of type yii\db\ActiveQuery as array in C:\xampp7.4.28\htdocs\basic\views\site\index.php:36
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 17:47:24 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '58911'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650728844.0328
+    'REQUEST_TIME' => 1650728844
+]
+2022-04-23 17:47:42 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\db\ActiveQuery::title in C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\views\site\index.php(36): yii\base\Component->__get('title')
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2022-04-23 17:47:42 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '58956'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650728862.7953
+    'REQUEST_TIME' => 1650728862
+]
+2022-04-23 17:55:01 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in C:\xampp7.4.28\htdocs\basic\views\site\index.php:38
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\views\site\index.php(38): yii\base\ErrorHandler->handleError(8, 'Array to string...', 'C:\\xampp7.4.28\\...', 38, Array)
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2022-04-23 17:55:01 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '64077'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650729301.5438
+    'REQUEST_TIME' => 1650729301
+]
+2022-04-23 17:55:14 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'title' of non-object in C:\xampp7.4.28\htdocs\basic\views\site\index.php:38
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\views\site\index.php(38): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp7.4.28\\...', 38, Array)
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2022-04-23 17:55:14 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '64111'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650729314.5691
+    'REQUEST_TIME' => 1650729314
+]
+2022-04-23 17:55:15 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'title' of non-object in C:\xampp7.4.28\htdocs\basic\views\site\index.php:38
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\views\site\index.php(38): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp7.4.28\\...', 38, Array)
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2022-04-23 17:55:15 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '64113'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650729315.5
+    'REQUEST_TIME' => 1650729315
+]
+2022-04-23 17:55:28 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'title' of non-object in C:\xampp7.4.28\htdocs\basic\views\site\index.php:38
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\views\site\index.php(38): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp7.4.28\\...', 38, Array)
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2022-04-23 17:55:28 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '64148'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650729328.805
+    'REQUEST_TIME' => 1650729328
+]
+2022-04-23 18:04:08 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Cannot use object of type yii\db\ActiveQuery as array in C:\xampp7.4.28\htdocs\basic\views\site\index.php:37
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 18:04:08 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii.test/basic/web/article/view?id=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '52676'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650729848.0771
+    'REQUEST_TIME' => 1650729848
+]
+2022-04-23 18:07:12 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'title' of non-object in C:\xampp7.4.28\htdocs\basic\views\site\index.php:37
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\views\site\index.php(37): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp7.4.28\\...', 37, Array)
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2022-04-23 18:07:12 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53119'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650730032.0668
+    'REQUEST_TIME' => 1650730032
+]
+2022-04-23 18:10:14 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Cannot use object of type yii\db\ActiveQuery as array in C:\xampp7.4.28\htdocs\basic\views\site\index.php:37
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 18:10:14 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53638'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650730214.7528
+    'REQUEST_TIME' => 1650730214
+]
+2022-04-23 18:12:15 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Cannot use object of type yii\db\ActiveQuery as array in C:\xampp7.4.28\htdocs\basic\views\site\index.php:37
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 18:12:15 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53828'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650730335.2811
+    'REQUEST_TIME' => 1650730335
+]
+2022-04-23 18:12:23 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Cannot use object of type yii\db\ActiveQuery as array in C:\xampp7.4.28\htdocs\basic\views\site\index.php:37
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 18:12:23 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53854'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650730343.8063
+    'REQUEST_TIME' => 1650730343
+]
+2022-04-23 18:20:08 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][Error] Error: Class 'app\helpers\Html' not found in C:\xampp7.4.28\htdocs\basic\views\site\index.php:22
+Stack trace:
+#0 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 C:\xampp7.4.28\htdocs\basic\controllers\SiteController.php(65): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-04-23 18:20:08 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '53424'
+    'REDIRECT_URL' => '/basic/web/site/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/site/index'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650730808.6919
+    'REQUEST_TIME' => 1650730808
+]
+2022-04-23 18:27:55 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][TypeError] TypeError: Argument 2 passed to yii\base\View::{closure}() must be an instance of Article, instance of app\models\Article given in C:\xampp7.4.28\htdocs\basic\views\article\index.php:40
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}('view', Object(app\models\Article), 1, 0, Object(yii\grid\ActionColumn))
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\ActionColumn.php(219): call_user_func(Object(Closure), 'view', Object(app\models\Article), 1, 0, Object(yii\grid\ActionColumn))
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\ActionColumn.php(245): yii\grid\ActionColumn->createUrl('view', Object(app\models\Article), 1, 0)
+#3 [internal function]: yii\grid\ActionColumn->yii\grid\{closure}(Array)
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\ActionColumn.php(250): preg_replace_callback('/\\{([\\w\\-\\/]+)\\...', Object(Closure), '{view} {update}...')
+#5 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\ActionColumn->renderDataCellContent(Object(app\models\Article), 1, 0)
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Article), 1, 0)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Article), 1, 0)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Widget.php(146): yii\grid\GridView->run()
+#16 C:\xampp7.4.28\htdocs\basic\views\article\index.php(42): yii\base\Widget::widget(Array)
+#17 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#18 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#19 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\ArticleController))
+#20 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\ArticleController))
+#21 C:\xampp7.4.28\htdocs\basic\controllers\ArticleController.php(46): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\ArticleController->actionIndex()
+#23 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#26 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article', Array)
+#27 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2022-04-23 18:27:55 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '60616'
+    'REDIRECT_URL' => '/basic/web/article'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/article'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650731275.0057
+    'REQUEST_TIME' => 1650731275
+]
+2022-04-23 18:28:18 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][error][TypeError] TypeError: Argument 2 passed to yii\base\View::{closure}() must be an instance of Article, instance of app\models\Article given in C:\xampp7.4.28\htdocs\basic\views\article\index.php:40
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}('view', Object(app\models\Article), 1, 0, Object(yii\grid\ActionColumn))
+#1 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\ActionColumn.php(219): call_user_func(Object(Closure), 'view', Object(app\models\Article), 1, 0, Object(yii\grid\ActionColumn))
+#2 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\ActionColumn.php(245): yii\grid\ActionColumn->createUrl('view', Object(app\models\Article), 1, 0)
+#3 [internal function]: yii\grid\ActionColumn->yii\grid\{closure}(Array)
+#4 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\ActionColumn.php(250): preg_replace_callback('/\\{([\\w\\-\\/]+)\\...', Object(Closure), '{view} {update}...')
+#5 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\ActionColumn->renderDataCellContent(Object(app\models\Article), 1, 0)
+#6 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(app\models\Article), 1, 0)
+#7 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow(Object(app\models\Article), 1, 0)
+#8 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#11 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#13 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#14 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Widget.php(146): yii\grid\GridView->run()
+#16 C:\xampp7.4.28\htdocs\basic\views\article\index.php(42): yii\base\Widget::widget(Array)
+#17 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp7.4.28\\...')
+#18 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp7.4.28\\...', Array)
+#19 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp7.4.28\\...', Array, Object(app\controllers\ArticleController))
+#20 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('index', Array, Object(app\controllers\ArticleController))
+#21 C:\xampp7.4.28\htdocs\basic\controllers\ArticleController.php(46): yii\base\Controller->render('index', Array)
+#22 [internal function]: app\controllers\ArticleController->actionIndex()
+#23 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#24 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#25 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#26 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article', Array)
+#27 C:\xampp7.4.28\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\xampp7.4.28\htdocs\basic\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2022-04-23 18:28:18 [127.0.0.1][1][nraud5q7o5f5d4fbdp0j79fmuf][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nraud5q7o5f5d4fbdp0j79fmuf'
+    '_csrf' => 'fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZRNvycobYjmKjiCEEh4aghBsj22j-emd\";}'
+    '_identity' => '8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a:2:{i:0;s:9:\"_identity\";i:1;s:67:\"[1,\"? ?\\u0002?;?T[?)i?o?(?\\u0004f?U\\u001d\\u0000????m?\\b??\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => '? ??;?T[?)i?o?(?f?U\0????m???'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp7.4.28/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp7.4.28/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl,en-US;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=nraud5q7o5f5d4fbdp0j79fmuf; _csrf=fa1b61b0a0e0be485b5c6630f941c6f362c8fdfa90b6f22f3beb5464c73ad698a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZRNvycobYjmKjiCEEh4aghBsj22j-emd%22%3B%7D; _identity=8bfdea7b22cf5945f1d1f19de1b909e892289bd3027313d8a8d1cf47e72796f9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A67%3A%22%5B1%2C%22%3F%20%3F%5Cu0002%3F%3B%3FT%5B%3F%29i%3Fo%3F%28%3F%5Cu0004f%3FU%5Cu001d%5Cu0000%3F%3F%3F%3Fm%3F%5Cb%3F%3F%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\MinGW;C:\\MinGW\\bin;C:\\MinGW\\libexec;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\composer;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\xampp7.4\\php;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\nodejs;C:\\Users\\Krzok\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Users\\Krzok\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Krzok\\.dotnet\\tools;C:\\Users\\Krzok\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2021.3.2\\bin;;C:\\Users\\Krzok\\AppData\\Local\\GitHubDesktop\\bin;C:\\xampp7.4.28\\php;C:\\Users\\Krzok\\AppData\\Roaming\\npm;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28 Server at yii.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.28'
+    'SERVER_NAME' => 'yii.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp7.4.28/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp7.4.28/htdocs/basic/web/index.php'
+    'REMOTE_PORT' => '60719'
+    'REDIRECT_URL' => '/basic/web/article'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/article'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1650731298.2424
+    'REQUEST_TIME' => 1650731298
+]
